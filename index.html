@@ -36,6 +36,7 @@
         <a href="#nosotros" class="hover:text-blue-400 transition">Nosotros</a>
         <a href="#servicios" class="hover:text-blue-400 transition">Servicios</a>
         <a href="#portafolio" class="hover:text-blue-400 transition">Portafolio</a>
+        <a href="#becarios" class="hover:text-blue-400 transition">Becarios</a>
         <a href="#contacto" class="hover:text-blue-400 transition">Contacto</a>
       </nav>
       
@@ -55,6 +56,8 @@
       <a href="#nosotros" class="hover:text-blue-400">Nosotros</a>
       <a href="#servicios" class="hover:text-blue-400">Servicios</a>
       <a href="#portafolio" class="hover:text-blue-400">Portafolio</a>
+      
+      <a href="#becarios" class="hover:text-blue-400">Becarios</a>
       <a href="#contacto" class="hover:text-blue-400">Contacto</a>
     </div>
   </header>
@@ -245,7 +248,6 @@
 </section>
 
 <!--portafolio-->
-
 <section id="portafolio" class="py-16 bg-gray-100">
   <div class="container mx-auto px-6 py-6">
     <h2 class="text-4xl font-bold text-center mb-12 transition-transform duration-500 transform hover:scale-105">
@@ -255,66 +257,90 @@
     <!-- Swiper -->
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
-        
+
         <!-- Proyecto 1 -->
-        <div class="swiper-slide bg-white rounded-lg shadow-lg overflow-hidden">
-          <img src="https://source.unsplash.com/400x300/?technology,website" alt="Proyecto 1" class="w-full h-48 object-cover">
-          <div class="p-6">
-            <h3 class="text-2xl font-semibold mb-2">Plataforma de Gestión Empresarial</h3>
-            <p class="text-gray-600">Sistema para administrar recursos y procesos internos.</p>
+        <div class="swiper-slide bg-white rounded-lg shadow-lg overflow-hidden flex flex-col h-[450px] max-h-[450px]">
+          <div class="w-full h-48 overflow-hidden">
+            <img src="img/bollente.webp" alt="Proyecto 1" class="w-full h-full object-cover object-center">
+          </div>
+          <div class="p-6 flex-1 flex flex-col gap-3">
+            <h3 class="text-2xl font-semibold">Plataforma de Gestión de Liga de futbol local</h3>
+            <p class="text-gray-600 line-clamp-2">
+              Sistema para administrar sitio web para liga local.
+            </p>
           </div>
         </div>
 
         <!-- Proyecto 2 -->
-        <div class="swiper-slide bg-white rounded-lg shadow-lg overflow-hidden">
-          <img src="https://source.unsplash.com/400x300/?app,mobile" alt="Proyecto 2" class="w-full h-48 object-cover">
-          <div class="p-6">
-            <h3 class="text-2xl font-semibold mb-2">Aplicación Móvil para Delivery</h3>
-            <p class="text-gray-600">App para gestionar pedidos con seguimiento en tiempo real.</p>
+        <div class="swiper-slide bg-white rounded-lg shadow-lg overflow-hidden flex flex-col h-[450px] max-h-[450px]">
+          <div class="w-full h-48 overflow-hidden">
+            <img src="img/proyecto2.webp" alt="Proyecto 2" class="w-full h-full object-cover object-center">
+          </div>
+          <div class="p-6 flex-1 flex flex-col gap-3">
+            <h3 class="text-2xl font-semibold">Sitio web para inmobiliaria</h3>
+            <p class="text-gray-600 line-clamp-2">
+              Sitio web profesional para la inmobiliaria Bienes Raíces DH.
+            </p>
           </div>
         </div>
 
         <!-- Proyecto 3 -->
-        <div class="swiper-slide bg-white rounded-lg shadow-lg overflow-hidden">
-          <img src="https://source.unsplash.com/400x300/?ecommerce,store" alt="Proyecto 3" class="w-full h-48 object-cover">
-          <div class="p-6">
-            <h3 class="text-2xl font-semibold mb-2">Tienda en Línea Personalizada</h3>
-            <p class="text-gray-600">E-commerce con pagos y administración de productos.</p>
+        <div class="swiper-slide bg-white rounded-lg shadow-lg overflow-hidden flex flex-col h-[450px] max-h-[450px]">
+          <div class="w-full h-48 overflow-hidden">
+            <img src="img/uadopag.webp" alt="Proyecto 3" class="w-full h-full object-cover object-center">
+          </div>
+          <div class="p-6 flex-1 flex flex-col gap-3">
+            <h3 class="text-2xl font-semibold">Landing page para UADEO administracion rural</h3>
+            <p class="text-gray-600 line-clamp-2">
+              Sitio web para promocionar la oferta educativa de la universidad.
+            </p>
           </div>
         </div>
 
         <!-- Proyecto 4 -->
-        <div class="swiper-slide bg-white rounded-lg shadow-lg overflow-hidden">
-          <img src="https://source.unsplash.com/400x300/?dashboard,analytics" alt="Proyecto 4" class="w-full h-48 object-cover">
-          <div class="p-6">
-            <h3 class="text-2xl font-semibold mb-2">Dashboard de Análisis de Datos</h3>
-            <p class="text-gray-600">Reportes dinámicos y gráficos avanzados.</p>
+        <div class="swiper-slide bg-white rounded-lg shadow-lg overflow-hidden flex flex-col h-[450px] max-h-[450px]">
+          <div class="w-full h-48 overflow-hidden">
+            <img src="img/carwas.webp" alt="Proyecto 4" class="w-full h-full object-cover object-center">
+          </div>
+          <div class="p-6 flex-1 flex flex-col gap-3">
+            <h3 class="text-2xl font-semibold">Sitio web para CarWashCarlos</h3>
+            <p class="text-gray-600 line-clamp-2">
+              Sitio web para promocionar los servicios de lavado de autos.
+            </p>
           </div>
         </div>
 
         <!-- Proyecto 5 -->
-        <div class="swiper-slide bg-white rounded-lg shadow-lg overflow-hidden">
-          <img src="https://source.unsplash.com/400x300/?security,cyber" alt="Proyecto 5" class="w-full h-48 object-cover">
-          <div class="p-6">
-            <h3 class="text-2xl font-semibold mb-2">Sistema de Seguridad y Monitoreo</h3>
-            <p class="text-gray-600">Software para control de accesos en empresas.</p>
+        <div class="swiper-slide bg-white rounded-lg shadow-lg overflow-hidden flex flex-col h-[450px] max-h-[450px]">
+          <div class="w-full h-48 overflow-hidden">
+            <img src="img/proyecto4.webp" alt="Proyecto 5" class="w-full h-full object-cover object-center">
+          </div>
+          <div class="p-6 flex-1 flex flex-col gap-3">
+            <h3 class="text-2xl font-semibold">Sistema de escritorio para consultorio medico privado</h3>
+            <p class="text-gray-600 line-clamp-2">
+              Sistema para llevar el control de pacientes y citas médicas.
+            </p>
           </div>
         </div>
 
         <!-- Proyecto 6 -->
-        <div class="swiper-slide bg-white rounded-lg shadow-lg overflow-hidden">
-          <img src="https://source.unsplash.com/400x300/?education,learning" alt="Proyecto 6" class="w-full h-48 object-cover">
-          <div class="p-6">
-            <h3 class="text-2xl font-semibold mb-2">Plataforma de Educación en Línea</h3>
-            <p class="text-gray-600">Portal con cursos, foros y herramientas interactivas.</p>
+        <div class="swiper-slide bg-white rounded-lg shadow-lg overflow-hidden flex flex-col h-[450px] max-h-[450px]">
+          <div class="w-full h-48 overflow-hidden">
+            <img src="img/receta2.webp" alt="Proyecto 6" class="w-full h-full object-cover object-center">
+          </div>
+          <div class="p-6 flex-1 flex flex-col gap-3">
+            <h3 class="text-2xl font-semibold">Sistema web de recetas para consultorio medico privado</h3>
+            <p class="text-gray-600 line-clamp-2">
+              Sistema para generar recetas médicas e imprimirlas en pdf.
+            </p>
           </div>
         </div>
 
       </div>
-
     </div>
   </div>
 </section>
+
 
 <!--becarios-->
 
